@@ -1,5 +1,21 @@
 /* styles.css */
-
+/* changing anything in the first set of brackets changes for all elements */
 * {
 	font-family: Arial;
+	line-height: 1.4em;
+}
+/* em is the standard size for text + text decoration none is removing the underline of the linked text */
+p a{
+	font-family: "courier new, Courier, monospace";
+	font-size: 1.3em; 
+	text-decoration: none; 
+	color: red; 
+	font-weight: bold; 
+
+}
+/* when hovering over the text it changes color + adding a border at the bottom when hovered over*/
+p a:hover {
+	color: pink;
+	border-bottom: 2px dotted pink; 
+	
 }
