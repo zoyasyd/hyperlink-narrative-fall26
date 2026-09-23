@@ -17,5 +17,19 @@ p a{
 p a:hover {
 	color: pink;
 	border-bottom: 2px dotted pink; 
+	border: 4px dotted pink;
 	
+}
+/* an unordered list with the class "choices" (its just another way to be more specific when styling */
+ul.choices {
+	list-style-type: none;
+	width: 90%; 
+}
+/* any a item within an li within the choices ul */
+ul.choices li a{
+	color:rgb(168, 67, 135); 
+	text-decoration: none; 
+	font-weight: bold;
+	display: block;
+	border: 4px dotted purple;
 }
