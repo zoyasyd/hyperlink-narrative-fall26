@@ -5,9 +5,10 @@
 	line-height: 1.4em;
 }
 
-body.homepage {
+body.page1 {
 
-	background-color:bisque; 
+background: url("../img/grid-bg.png");
+	background-color:bisque;
 
 }
 
@@ -34,8 +35,9 @@ p a:hover {
 }
 /* an unordered list with the class "choices" (its just another way to be more specific when styling */
 ul.choices {
-	list-style-type: none
-	width: 50%; 
+	list-style-type: none;
+	width: 50%;
+	margin: 0 auto; 
 }
 /* any a item within an li within the choices ul */
 ul.choices li a{
@@ -56,11 +58,12 @@ ul.choices li a:hover{
 	border: 4px solid rgb(144, 172, 172); 
 }
 /* just img by itself would apply to all images so in order to specify we would need to use a class */
-img {
-	padding: 20px; 
+.dirt {
+	width: 400px;
 	border-radius: 3px 10px 90px 10px; 
 }
-
+/* when hovering over the image it changes the background color
 img:hover {
-	background: rgb(218, 201, 215); 
+	background: rgb(218, 201, 215) 
 }
+	 */
