@@ -34,8 +34,8 @@ p a:hover {
 }
 /* an unordered list with the class "choices" (its just another way to be more specific when styling */
 ul.choices {
-	list-style-type: none;
-	width: 90%; 
+	list-style-type: none
+	width: 50%; 
 }
 /* any a item within an li within the choices ul */
 ul.choices li a{
@@ -47,7 +47,7 @@ ul.choices li a{
 	border-radius: 5px;
 	background-color: rgb(251, 232, 251);
 	margin: 10px; 
-	padding: 15px 18px; 
+	padding: 30px 18px; 
 }
 
 ul.choices li a:hover{
