@@ -5,16 +5,20 @@
 	line-height: 1.4em;
 }
 
-body.page1 {
+body{
 
 background: url("../img/grid-bg.png");
 	background-color:bisque;
 
 }
 
-body.page2 {
-
-	background-color: cadetblue;
+p.upper-text {
+	font-family: "courier new, Courier, monospace";
+	font-size: 1.3em; 
+	text-decoration: none; 
+	color: rgb(185, 52, 152); 
+	font-weight: bold;
+	margin-top: 50px; 
 }
 
 /* em is the standard size for text + text decoration none is removing the underline of the linked text */
@@ -77,6 +81,16 @@ ul.choices li a:hover{
 	background-color: rgb(231, 255, 255);
 	color: black; 
 	border: 4px solid rgb(144, 172, 172); 
+}
+
+ul.choices-cont li a:hover{
+	background-color: rgb(231, 237, 255);
+	color: black; 
+	border: 4px solid rgb(144, 146, 172); 
+}
+
+.return-text{
+margin-top:70px; 
 }
 /* just img by itself would apply to all images so in order to specify we would need to use a class */
 .dirt {
