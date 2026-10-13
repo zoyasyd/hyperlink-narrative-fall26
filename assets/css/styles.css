@@ -12,13 +12,22 @@ background: url("../img/grid-bg.png");
 
 }
 
+.title-text {
+	font-family: "courier new, Courier, monospace";
+	font-size: 2.5em; 
+	text-decoration: none; 
+	color: rgb(190, 26, 103); 
+	font-weight: bold;
+	margin-top: 50px; 
+}
+
 p.upper-text {
 	font-family: "courier new, Courier, monospace";
-	font-size: 1.3em; 
+	font-size: 1.4em; 
 	text-decoration: none; 
 	color: rgb(185, 52, 152); 
 	font-weight: bold;
-	margin-top: 50px; 
+	margin-top: 50px;
 }
 
 /* em is the standard size for text + text decoration none is removing the underline of the linked text */
